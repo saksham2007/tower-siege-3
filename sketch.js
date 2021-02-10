@@ -14,7 +14,7 @@ var bg = "Sprites/bg.jpg";
 
 function preload() {
   getBackgroundImg();
-  backgroundImg = loadImage("Sprites/bg.jpg");
+  //backgroundImg = loadImage("Sprites/bg.jpg");
 }
 
 function setup() {
@@ -143,5 +143,5 @@ async function getBackgroundImg() {
       bg = "Sprites/bg1.jpg"
   }
   backgroundImg = loadImage(bg);
-  console.log(backgroundImg);
+  //console.log(backgroundImg);
 }
